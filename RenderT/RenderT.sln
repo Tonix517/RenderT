@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RenderT", "RenderT.vcproj", "{754BECFF-6062-4ABF-B743-4FAE27C3C463}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD} = {32AD181B-597B-48C4-9FFD-B13C76D9DDAD}
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562} = {DEC5EC86-BBA7-4071-8241-B29AA33C7562}
+		{05AAE08C-73CC-4409-8308-15D37A019BF0} = {05AAE08C-73CC-4409-8308-15D37A019BF0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glm", "glm.vcproj", "{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glui", "glui\glui.vcproj", "{05AAE08C-73CC-4409-8308-15D37A019BF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glee", "glee\glee.vcproj", "{DEC5EC86-BBA7-4071-8241-B29AA33C7562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		EmuDebug|Win32 = EmuDebug|Win32
+		EmuRelease|Win32 = EmuRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.Debug|Win32.ActiveCfg = Debug|Win32
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.Debug|Win32.Build.0 = Debug|Win32
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.EmuDebug|Win32.ActiveCfg = EmuDebug|Win32
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.EmuDebug|Win32.Build.0 = EmuDebug|Win32
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.EmuRelease|Win32.ActiveCfg = EmuRelease|Win32
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.EmuRelease|Win32.Build.0 = EmuRelease|Win32
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.Release|Win32.ActiveCfg = Release|Win32
+		{754BECFF-6062-4ABF-B743-4FAE27C3C463}.Release|Win32.Build.0 = Release|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.Debug|Win32.Build.0 = Debug|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.EmuDebug|Win32.ActiveCfg = Debug|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.EmuDebug|Win32.Build.0 = Debug|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.EmuRelease|Win32.ActiveCfg = Release|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.EmuRelease|Win32.Build.0 = Release|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.Release|Win32.ActiveCfg = Release|Win32
+		{32AD181B-597B-48C4-9FFD-B13C76D9DDAD}.Release|Win32.Build.0 = Release|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.Debug|Win32.Build.0 = Debug|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.EmuDebug|Win32.ActiveCfg = Debug|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.EmuDebug|Win32.Build.0 = Debug|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.EmuRelease|Win32.ActiveCfg = Release|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.EmuRelease|Win32.Build.0 = Release|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.Release|Win32.ActiveCfg = Release|Win32
+		{05AAE08C-73CC-4409-8308-15D37A019BF0}.Release|Win32.Build.0 = Release|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.Debug|Win32.Build.0 = Debug|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.EmuDebug|Win32.ActiveCfg = Debug|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.EmuDebug|Win32.Build.0 = Debug|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.EmuRelease|Win32.ActiveCfg = Release|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.EmuRelease|Win32.Build.0 = Release|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.Release|Win32.ActiveCfg = Release|Win32
+		{DEC5EC86-BBA7-4071-8241-B29AA33C7562}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

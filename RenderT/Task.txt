@@ -1,0 +1,31 @@
+-----------
+
+9_ball - 0.005/2.2/0.02
+3_venus- 0.01/1.6/0.02 (5056)
+
+-----------
+1. texture update in GPU (a similiar problem happend in CPU, before) - to be checked
+
+2.	DIR light shoot photon - not implemented
+	Photon-Mapping on GPU
+
+*. 2nd Pass may darken the pixels from the 1st Pass..
+
+===============
+	PENDING
+===============
+*	Anti-Aliasing	(Differential-based) (refraction: the edges, where in-angle is about 90 degrees.. needs fixed. 
+					it introduces alias)
+*	Bump Mapping
+*	Perlin Noise
+*	Camera: Depth of Field
+*	Participating Media
+*   Sampling: Low-Discrepancy \ Best-Candidate sampling
+*	Texture Sampling Anti-Aliasing
+
+=============
+	EXTRA
+=============
+*	one-bound IR only completes Spec-Diff illum.. more passes are needed
+*	Geometry subdivision\tessellation
+*	Lex & Yacc - parser
